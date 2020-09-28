@@ -11,6 +11,8 @@ facebook + amazon + google
 
 
 var classMax = x
-var currentnumberostudents = y
+var currentnumberofstudents = y
 var classopen = (x>y)
+
+
 

@@ -1,0 +1,20 @@
+"use strict"
+consol.log('salah')
+consol.log('salah1')
+consol.log('salah2')
+consol.log('salah3')
+consol.log('salah4')
+consol.log('salah5')
+consol.log('salah6')
+consol.log('salah7')
+function sayHello(name)
+console.log("Hello" + name)
+
+sayHello(name:"salah1")
+sayHello(name:"salah2")
+sayHello(name:"salah3")
+sayHello(name:"salah4")
+sayHello(name:"salah5")
+sayHello(name:"salah6")
+sayHello(name:"salah7")
+
