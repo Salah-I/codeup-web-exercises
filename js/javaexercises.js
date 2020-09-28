@@ -13,7 +13,7 @@ sample.trim()
 
 var username = 'codeup';
 var password = 'notastrongpassword';
-
+x
 var isfivecharacters = password.legth >= 5;
 var doesincludeusername = password.indexOf(username) !== -1;
 var usernametolong = username.legth >= 20;
