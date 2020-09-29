@@ -8,7 +8,11 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
+function sayHello (name){
+return "Hello, " + name + '!!!'
+}
 
+console.log(sayHello('bobby'));
 /**
  * TODO:
  * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -16,6 +20,10 @@
  *
  * console.log 'helloMessage' to check your work
  */
+var helloMessage = sayHello("Salah")
+console.log(helloMessage)
+helloMessage = helloMessage + (1+1)
+console.log(helloMessage)
 
 /**
  * TODO:
@@ -27,6 +35,8 @@
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
 var random = Math.floor((Math.random() * 3) + 1);
+
+
 
 /**
  * TODO:
@@ -45,7 +55,15 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
-
+function isTwo(x){
+if (x === 2){
+    return true
+}    else {
+return false
+}
+}
+console.log(isTwo(2))
+console.log(isTwo(7))
 /**
  * TODO:
  * Create a function named 'calculateTip' to calculate a tip on a bill at a
