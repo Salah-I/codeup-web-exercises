@@ -75,6 +75,12 @@ console.log(isTwo(7))
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+function calculateTip(percentage, total){
+    return percentage * total
+    console.log(calculateTip(percentage:0.20, total:20)
+
+}
+
 
 /**
  * TODO:
@@ -82,7 +88,12 @@ console.log(isTwo(7))
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
-
+var billTotal = Number(prompt(message:"What is your total");
+var tip = Number(prompt(message:"How much would you like to tip? Enter a number from 1-100"));
+var tipPercentage = tip/100;
+var tipDollars = calculateTip(tipPercentage, bill).toFixed(fractionDigits:2)
+alert("you will need to tip" + tipDollars)
+///why is this not working?!?!?!?!?!!?!??!!?
 /**
  * TODO:
  * Create a function named `applyDiscount`. This function should accept a price
@@ -97,3 +108,11 @@ console.log(isTwo(7))
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+function applyDiscount(originalPrice, discountPercent){
+    var discountAmount = originalPrice * discountPercent;
+    return (originalPrice - discountAmount).toFixed(fract
+    2)
+}
+console.log(applyDiscount(originalPrice:100, discountPercent.3))
+console.log(applyDiscount(originalPrice:45.99, discountPercent:0.12))
+
