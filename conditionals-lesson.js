@@ -19,17 +19,51 @@ console.log("hello from conditionals lec.js!");
 
 // ================ IF STATEMENT EXAMPLES ================
 //TODO Together: Show a specific navbar if user is admin
-//TODO Together: Send a 20% off coupon if its users birthday
-//TODO Together: Write an if statement that alerts "It's raining" if isRainy is true
-//TODO Together: Write an if statement that alerts the user whether or not they have enough money to buy a new item. Assume there are no hidden fees or taxes.
+if(isAdmin === true){
 
+}
+//TODO Together: Send a 20% off coupon if its users birthday
+if(isBirthday === true){
+    else isBirthday sendcoupon
+    var sendcoupon = send 20% off coupon
+}
+//TODO Together: Write an if statement that alerts "It's raining" if isRainy is true
+var isRaining = true;
+if(isRaining === true){
+    alert("is raining!");
+}
+//TODO Together: Write an if statement that alerts the user whether or not they have enough money to buy a new item. Assume
+// there are no hidden fees or taxes.
+var itemCost = 100;
+var currentBalance = 50;
+function purchase(itemCost, currentBalance){
+    if (itemCost > currentBalance) {
+        alert("sorry you dont have enough money")
+    } else {
+        alert(" you can but the item now")
+    }
+}
 
 
 //TODO: Write an if statement that alerts "Sorry, game over" if numberOfLives is 0
+var gameover = 0
+var alive = 1
+if (gameover > alive){
+    alert("gameover try again!")
+    else {
+        alert("winner winner chicken dinner")
+    }
+}
 //TODO: Write an if statement that alerts "It's snowing!" if weather is equal to "snowing"
+var weather = isSnowing
+if (isSnowing === true)
+    alert(yaaa its snowing!!)
+
 //TODO: Write an if statement that alerts true if numberInput is greater than but not equal to 10
-
-
+var numerInput = 11
+if (numerInput > 10) {
+    alert("number is greater than 10")
+}
 
 
 //TODO: EXTRA BONUS - Refactor each of the previous statements as functions.
