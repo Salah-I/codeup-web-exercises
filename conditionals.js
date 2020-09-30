@@ -106,7 +106,7 @@ var discountedPrice = totalAmount
     return discountedPrice
 
 }
-
+console.log(caculateTotal())
 
 
 
