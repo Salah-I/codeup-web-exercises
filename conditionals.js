@@ -112,13 +112,16 @@ console.log(caculateTotal())
 
 /**
  * TODO:
- * Uncomment the line below to generate a random number between 0 and 6.
+ * Uncomment the line below to generate a random number between 0 and 5.
  * Prompt the user for their total bill, then use your `calculateTotal` function
  * and alerts to display to the user what their lucky number was, what their
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
+var luckyNumber = Math.floor(Math.random() * 5);
+var userBill = prompt("how much was your bill")
+calclateTotal(luckyNumber, userBill)
+
 
 /**
  * TODO:
@@ -136,3 +139,14 @@ console.log(caculateTotal())
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+    function number(enterNumber = 2){
+        var enterNumber = prompt("pick a number any number")
+        if(enterNumber == 2 ) {
+            alert("is you number a number")
+        } if else(enterNumber =< 2){
+alert("whats your number plus 100")
+}else{
+            alert("what was your number again")
+}
+return number
+    }
