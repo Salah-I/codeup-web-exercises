@@ -21,11 +21,11 @@
  * console.logging the function's return value
  */
 function analyzeColor(color)
-var color = prompt("what color do you like")
-if (color == "blue")[{
+var color === prompt("what color do you like")
+if (color === "blue")[{
     alert("blue is your color")
 )
-}if else (color == "red"){
+}if else (color === "red"){
     alert("red is your color")
 }  else {
     alert("thats my fav color too")
