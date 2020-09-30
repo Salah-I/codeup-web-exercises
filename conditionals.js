@@ -140,11 +140,11 @@ calclateTotal(luckyNumber, userBill)
  * HINT: The way we prompt for a value could be improved
  */
     function number(enterNumber = 2){
-        var enterNumber = prompt("pick a number any number")
+        var enterNumber = prompt("number even or odd")
         if(enterNumber == 2 ) {
-            alert("is you number a number")
+            prompt("your number positive or negitive")
         } if else(enterNumber =< 2){
-alert("whats your number plus 100")
+prompt("whats your number plus 100")
 }else{
             alert("what was your number again")
 } return enterNumber
