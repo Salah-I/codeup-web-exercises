@@ -86,6 +86,29 @@ if (color === "blue")[{
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+function caculateTotal(luckyNum, totalAmount){
+var discountedPrice = totalAmount
+    if(luckyNum === 0){
+    discountedPrice = totalAmount
+} else if(luckyNum === 1) {
+        discountedPrice = totalAmount - (totalAmount * .1)
+    }else if(luckyNum === 2){
+        discountedPrice - (totalAmount * .2)
+    } else if(luckyNum === 3) {
+        discountedPrice - (totalAmount * .35)
+    } else if(luckyNum === 4) {
+        discountedPrice - (totalAmount / 2)
+    } else if(luckyNum === 5){
+        discountedPrice = 0
+
+    }
+
+    return discountedPrice
+
+}
+
+
+
 
 /**
  * TODO:
