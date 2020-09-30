@@ -147,6 +147,5 @@ calclateTotal(luckyNumber, userBill)
 alert("whats your number plus 100")
 }else{
             alert("what was your number again")
-}
-return number
+} return enterNumber
     }
