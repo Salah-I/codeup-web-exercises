@@ -43,7 +43,16 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your function and console.log the results.
  * You should see a different message every time you refresh the page
  */
-
+function analyzeColor(color)
+var color === prompt("what color do you like")
+if (color === "blue")[{
+    alert("blue is your color")
+)
+}if else (color === "red"){
+    alert("red is your color")
+}  else {
+    alert("thats my fav color too")
+}
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
