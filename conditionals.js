@@ -43,6 +43,7 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your function and console.log the results.
  * You should see a different message every time you refresh the page
  */
+
 function analyzeColor(color)
 var color === prompt("what color do you like")
 if (color === "blue")[{
@@ -53,6 +54,8 @@ if (color === "blue")[{
 }  else {
     alert("thats my fav color too")
 }
+
+
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
@@ -86,6 +89,7 @@ if (color === "blue")[{
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+
 function caculateTotal(luckyNum, totalAmount){
 var discountedPrice = totalAmount
     if(luckyNum === 0){
@@ -118,9 +122,11 @@ console.log(caculateTotal())
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
+
 var luckyNumber = Math.floor(Math.random() * 5);
 var userBill = prompt("how much was your bill")
 calclateTotal(luckyNumber, userBill)
+
 
 
 /**
@@ -138,6 +144,7 @@ calclateTotal(luckyNumber, userBill)
  *
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
+
  */
     function enterNum{
         var num = parseInt(prompt(("enter a number")))
@@ -416,3 +423,4 @@ calclateTotal(luckyNumber, userBill)
 // ​
 // }
 // ​
+
