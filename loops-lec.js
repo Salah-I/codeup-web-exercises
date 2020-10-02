@@ -67,7 +67,7 @@
 /*********************************************
  *               FOR LOOPS
  *********************************************/
-// For loops: Loops that are designed to run a given number of times.
+// For loops: Loopss that are designed to run a given number of times.
 
 // for (/*initialization*/; /*condition*/; /*increment*/) {
 // 	// body
