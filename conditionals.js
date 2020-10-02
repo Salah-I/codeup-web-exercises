@@ -139,16 +139,12 @@ calclateTotal(luckyNumber, userBill)
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
-    function number(enterNumber = 2){
-        var enterNumber = prompt("number even or odd")
-        if(enterNumber == 2 ) {
-            prompt("your number positive or negitive")
-        } if else(enterNumber =< 2){
-prompt("whats your number plus 100")
-}else{
-            alert("what was your number again")
-} return enterNumber
-    }
+    function enterNum{
+        var num = parseInt(prompt(("enter a number")))
+
+}
+
+
 
 
     ///use strict";
