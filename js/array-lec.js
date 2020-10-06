@@ -212,7 +212,15 @@
 //     console.log(cleanNumsArr[i]);
 // }
 
-
+//BONUS CHALLENGE (when finished with the exercise)...
+// Create a phone number parser that will convert a string of numbers into a human readable format. The output should depend on the number of digits (account for 7, 10, 11 digit numbers):
+// Using multiple functions will be helpful.
+// input = 5552324343, output = 555-232-4343
+// input = 5553434, output = 555-3434
+// input = 18005552323, output = 1-800-555-2323
+// Extra Challenge: account for invalid characters
+// Extra Challenge: if the input is already formatted, output the unformatted version
+// Extra Challenge: allow the parser to accept letters and convert them to the correct numbers
 
 
 
@@ -238,14 +246,14 @@
 
 //
 // // create new test array
-//     var bonds = ["Craig", "Brosnan", "Dalton", "Moore", "Connery"];
-//
+    var bonds = ["Craig", "Brosnan", "Dalton", "Moore", "Connery"];
+bonds.splice("Dalton" ,"Moore" , "Bob" )
 //
 // // removing elements splice
-//     var missingBonds = bonds.splice(bonds.indexOf("Moore"), 2);
-//     console.log(bonds);
-//     console.log(missingBonds);
-//
+    var missingBonds = bonds.splice(bonds.indexOf("Moore"), 2);
+    console.log(bonds);
+    console.log(missingBonds);
+
 //
 // // adding elements with splice
 //     bonds.splice(1, 0, "Lazenby");
