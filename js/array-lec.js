@@ -68,7 +68,6 @@
 
 // add element to end
 
-
 // pies.push('chocolate'); // again returns the new total number of items in the array
 
 // remove element from the front of an array
