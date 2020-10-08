@@ -16,7 +16,7 @@
                 calculatedArea = Math.round( calculatedArea );
             }
 
-            console.log("Area of a circle with radius: " + this.radius + , +  calculatedArea);
+            console.log("Area of a circle with radius: " + this.radius + calculatedArea);
         }
     };
 
