@@ -8,15 +8,15 @@
             var area = Math.PI * (Math.pow(this.radius, 2));
             return area;
         },
-        logInfo: function (doRounding) {
+        logInfo: function (doRound) {
 
             var calculatedArea = this.getArea();
 
-            if(doRounding === true){
+            if(doRound === true){
                 calculatedArea = Math.round( calculatedArea );
             }
 
-            console.log("Area of a circle with radius: " + this.radius + ", is: " +  calculatedArea);
+            console.log("Area of a circle with radius: " + this.radius + , +  calculatedArea);
         }
     };
 
