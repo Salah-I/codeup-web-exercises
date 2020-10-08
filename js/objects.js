@@ -18,8 +18,8 @@
     };
 
     var fer = {
-        firstName: "Fer",
-        lastName: "Mendoza"
+        firstName: "salah",
+        lastName: "ismail"
     };
 
     console.log(person.firstName);
