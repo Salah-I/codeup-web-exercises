@@ -97,7 +97,7 @@
 
     var books = [
         {
-            title: "Garfield at Large: His First Book",
+            title: "Garfield",
             author: {
                 firstName: "salah",
                 lastName: "ismail"
@@ -111,30 +111,30 @@
             }
         },
         {
-            title: "1992 Information Please Sports Almanac",
+            title: "1992 Information",
             author: {
                 firstName: "Mike",
                 lastName: "Meserole"
             }
         },
         {
-            title: "Life is Too Short",
+            title: " Too Short",
             author: {
-                firstName: "Mickey",
-                lastName: "Rooney"
+                firstName: "Mick",
+                lastName: "sick"
             }
         },
         {
-            title: "How To Draw Manga",
+            title: "How To Draw",
             author: {
-                firstName: "Katy",
-                lastName: "Coope"
+                firstName: "Kat",
+                lastName: "Cop"
             }
         }, {
-            title: "The Cosmic Serpent",
+            title: "The Serpent",
             author: {
                 firstName: "Jeremy",
-                lastName: "Narby"
+                lastName: "Narc"
             }
         }
     ];
@@ -174,7 +174,12 @@
         showBookInfo(book);
         console.log("---");
     });
-
+//books.forEach(function(book,i){
+    //output += "book # " + book.title + "\n"
+    //output += "title: " + book.title + "\n"
+    //output += "author: " + book.author.firstname + book.author.lastname + "\n"
+    //output += "---"
+    //console.log(output)
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
@@ -186,10 +191,10 @@
      *   `showBookInfo` function.
      */
 
-    function createBook(aTitle, authorName){
+    function createBook(Title, authorName){
         var names = authorName.split(" ");
         return {
-            title: aTitle,
+            title: Title,
             author: {
                 firstName: names[0],
                 lastName: names[1]
