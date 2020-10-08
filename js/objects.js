@@ -99,8 +99,8 @@
         {
             title: "Garfield at Large: His First Book",
             author: {
-                firstName: "Jim",
-                lastName: "Davis"
+                firstName: "salah",
+                lastName: "ismail"
             }
         },
         {
