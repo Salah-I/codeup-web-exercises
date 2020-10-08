@@ -23,7 +23,7 @@
     // log info about the circle
     console.log("Raw circle information");
     circle.logInfo(false);
-    console.log("Circle information rounded to the nearest whole number");
+    console.log("Circle information rounded to nearest whole number");
     circle.logInfo(true);
 
     console.log("=======================================================");
@@ -32,6 +32,6 @@
     // log info about the circle
     console.log("Raw circle information");
     circle.logInfo(false);
-    console.log("Circle information rounded to the nearest whole number");
+    console.log("Circle information rounded the nearest whole number");
     circle.logInfo(true);
 })();
