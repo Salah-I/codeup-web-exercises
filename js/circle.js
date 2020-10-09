@@ -13,7 +13,7 @@
             var calculatedArea = this.getArea();
 
             if(doRounding === true){
-                calculatedArea = Math.round( calculatedArea );
+             return   calculatedArea = Math.round( calculatedArea );
             }
 
             console.log("Area of a circle with radius: " + this.radius + calculatedArea);

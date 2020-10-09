@@ -21,7 +21,7 @@
             var calculateArea = this.getArea();
 
             if(doRounding === true){
-                calculateArea = Math.round( calculateArea );
+              return  calculateArea = Math.round( calculateArea );
             }
 
 
