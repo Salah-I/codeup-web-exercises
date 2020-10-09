@@ -8,11 +8,11 @@
             var area = Math.PI * (Math.pow(this.radius, 2));
             return area;
         },
-        logInfo: function (doRound) {
+        logInfo: function (doRounding) {
 
             var calculatedArea = this.getArea();
 
-            if(doRound === true){
+            if(doRounding === true){
                 calculatedArea = Math.round( calculatedArea );
             }
 
