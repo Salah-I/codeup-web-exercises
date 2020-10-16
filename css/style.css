@@ -5,14 +5,9 @@ comment
 */
 
 .fancy-header {
-    color: purple;
+    color: purple; /* single line comment */
     text-decoration: underline;
     text-align: center;
-}
-
-h1 {
-    text-decoration: underline;
-    color: darkred;
 }
 
 h2 {
@@ -20,3 +15,39 @@ h2 {
     color: blue;
 }
 
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+    background-color: #7cb342;
+    font-family: 'Trade Winds';
+}
+
+ul {
+    list-style: square;
+}
+
+tr>td {
+    font-size: 30px;
+    padding: 10px;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:active {
+    background-color: rosybrown;
+}
