@@ -5,7 +5,7 @@ comment
 */
 
 .fancy-header {
-    color: purple; /* single line comment */
+    color: purple;
     text-decoration: underline;
     text-align: center;
 }
